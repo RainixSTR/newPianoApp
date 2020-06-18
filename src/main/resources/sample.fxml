@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rainix.controllers.ControllerTap">
+   <children>
+      <Button fx:id="A" layoutX="32.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="368.0" prefWidth="90.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER" />
+      <Button fx:id="S" layoutX="122.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="368.0" prefWidth="90.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER" />
+      <Button fx:id="D" layoutX="212.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="368.0" prefWidth="90.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER" />
+      <Button fx:id="F" layoutX="302.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="368.0" prefWidth="90.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER" />
+      <Button fx:id="G" layoutX="392.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="368.0" prefWidth="90.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER" />
+      <Button fx:id="H" layoutX="482.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="368.0" prefWidth="90.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER" />
+      <Button fx:id="J" layoutX="572.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="368.0" prefWidth="90.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER" />
+      <Button fx:id="W" layoutX="96.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="248.0" prefWidth="52.0" style="-fx-background-color: black;" />
+      <Button fx:id="E" layoutX="186.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="248.0" prefWidth="52.0" style="-fx-background-color: black;" />
+      <Button fx:id="T" layoutX="366.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="248.0" prefWidth="52.0" style="-fx-background-color: black;" />
+      <Button fx:id="Y" layoutX="456.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="248.0" prefWidth="52.0" style="-fx-background-color: black;" />
+      <Button fx:id="U" layoutX="546.0" mnemonicParsing="false" onKeyPressed="#keyTap" onKeyReleased="#keyReleased" onMousePressed="#mouseTap" onMouseReleased="#mouseReleased" prefHeight="248.0" prefWidth="52.0" style="-fx-background-color: black;" />
+      <CheckBox fx:id="delayButton" layoutX="33.0" layoutY="374.0" mnemonicParsing="false" onAction="#useDelay" text="Delay" />
+      <ChoiceBox fx:id="octave" layoutX="513.0" layoutY="370.0" prefHeight="0.0" prefWidth="149.0" />
+      <Text layoutX="464.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Octave" />
+   </children>
+</AnchorPane>
